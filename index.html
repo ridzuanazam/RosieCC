@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Cafe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">RosieCC</div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Rosie Cyber Cafe</h1>
+      <p>
+        Experience high-speed internet, top-notch gaming, and a comfortable
+        workspace.
+      </p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        Located in Durian Tunggal, near Scientex Residential and UTeM
+        University, CyberCafe is your go-to hub for gaming, internet, and
+        workspace needs. </br>  </br> We offer a modern, tech-equipped space designed for
+        gamers, students, and professionals. Whether you're here to play, study,
+        or work, our comfortable and innovative environment ensures a seamless
+        digital experience.  </br> </br>  Join us and discover a space where technology and
+        convenience come together.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="service-list">
+        <div class="service">
+          <h3>High-Speed Internet</h3>
+          <p>
+            Enjoy lightning-fast internet connectivity for all your online
+            needs.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Gaming Zone</h3>
+          <p>Play the latest games on high-performance PCs and consoles.</p>
+        </div>
+        <div class="service">
+          <h3>Printing & Scanning</h3>
+          <p>
+            Convenient printing, scanning, and photocopying services available.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <h2>Pricing</h2>
+      <p>
+        Flexible pricing to suit your needs. Check out our hourly rates and
+        package deals.
+      </p>
+      <div class="pricing-table">
+        <div class="pricing-item pi1">
+          <h3>Hourly Rate</h3>
+          <p>RM5 per hour</p>
+        </div>
+        <div class="pricing-item pi2">
+          <h3>Day Pass</h3>
+          <p>RM20 for the entire day</p>
+        </div>
+        <div class="pricing-item p3">
+          <h3>Premium Package</h3>
+          <p>RM50 for a 5-day access</p>
+        </div>
+      </div>
+      <div class="cta-button">
+        <p><a href="#contact">Contact Us for More Info</a></p>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+      <h2>Book a Seat</h2>
+      <p>Reserve your spot today! Choose your service and time.</p>
+      <form class="booking-form">
+        <label for="service">Choose Service:</label>
+        <select id="service" name="service">
+          <option value="internet">High-Speed Internet</option>
+          <option value="gaming">Gaming Zone</option>
+          <option value="printing">Printing & Scanning</option>
+        </select>
+
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Select Time:</label>
+        <input type="time" id="time" name="time" required />
+
+        <button type="submit" class="cta-button">Book Now</button>
+      </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out to us.</p>
+      <form class="contact-form">
+        <label for="name">Your Name :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Your Email :</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Message :</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Your message"
+          required
+        ></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 CyberCafe Durian Tunggal. All rights reserved.</p>
+      <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">TikTok</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
