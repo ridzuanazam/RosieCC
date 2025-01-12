@@ -159,6 +159,7 @@ header nav ul li a:hover {
 .service-list {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -201,6 +202,7 @@ header nav ul li a:hover {
 .equipment-list {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   gap: 50px;
 }
@@ -376,6 +378,7 @@ header nav ul li a:hover {
   margin-left: 10%;
   margin-right: 10%;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
 }
